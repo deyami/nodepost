@@ -546,305 +546,286 @@
        height="17"
        x="860"
        y="860" onclick="input_txt(this)"/>
-    <text
-       xml:space="preserve"
-       style="font-size:14px;"
-       transform="translate(817,854)"><tspan
-         id="tspan10889"
-         x="0"
-         y="0">1111</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:14.98361492px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="1137.2883"
-       y="662.5069"
-       id="text10910"
-       sodipodi:linespacing="125%"
-       transform="scale(0.75715078,1.3207409)"><tspan
-         sodipodi:role="line"
-         id="tspan10912"
-         x="1137.2883"
-         y="662.5069">2222</tspan></text>
     <rect
        style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect4926"
        width="36"
        height="18"
        x="971"
-       y="444" />
+       y="444" onclick="input_txt(this)"/>
     <rect
        style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect4928"
        width="56"
        height="17"
        x="1046"
-       y="356" />
+       y="356" onclick="input_txt(this)"/>
     <rect
        style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect4930"
        width="35"
        height="19"
        x="999"
-       y="396" />
+       y="396" onclick="input_txt(this)"/>
     <rect
        style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect4932"
        width="48"
        height="17"
        x="1111"
-       y="361" />
+       y="361" onclick="input_txt(this)"/>
     <rect
        style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect4934"
        width="40"
        height="17"
        x="1093"
-       y="428" />
+       y="428" onclick="input_txt(this)"/>
     <rect
        style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect4936"
        width="33"
        height="16"
        x="1084"
-       y="448" />
+       y="448" onclick="input_txt(this)"/>
     <rect
        style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect4938"
        width="49"
        height="21"
        x="1041"
-       y="477" />
+       y="477" onclick="input_txt(this)"/>
     <rect
        style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect4940"
        width="33"
        height="15"
        x="1041"
-       y="502" />
+       y="502" onclick="input_txt(this)"/>
     <rect
        style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect4942"
        width="38"
        height="22"
        x="985"
-       y="491" />
+       y="491" onclick="input_txt(this)"/>
     <rect
        style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect4944"
        width="33"
        height="17"
        x="956"
-       y="567" />
+       y="567" onclick="input_txt(this)"/>
     <rect
        style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect4946"
        width="33"
        height="20"
        x="985"
-       y="607" />
+       y="607" onclick="input_txt(this)"/>
     <rect
        style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect4948"
        width="34"
        height="17"
        x="1032"
-       y="611" />
+       y="611" onclick="input_txt(this)"/>
     <rect
        style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect4950"
        width="30"
        height="17"
        x="1059"
-       y="526" />
+       y="526" onclick="input_txt(this)"/>
     <rect
        style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect4952"
        width="28"
        height="16"
        x="1047"
-       y="554" />
+       y="554" onclick="input_txt(this)"/>
     <rect
        style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect4954"
        width="26"
        height="16"
        x="1064"
-       y="581" />
+       y="581" onclick="input_txt(this)"/>
     <rect
        style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect4956"
        width="36"
        height="16"
        x="1098"
-       y="540" />
+       y="540" onclick="input_txt(this)"/>
     <rect
        style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect4958"
        width="35"
        height="17"
        x="1099"
-       y="560" />
+       y="560" onclick="input_txt(this)"/>
     <rect
        style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect4960"
        width="32"
        height="13"
        x="1112"
-       y="585" />
+       y="585" onclick="input_txt(this)"/>
     <rect
        style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect4962"
        width="29"
        height="19"
        x="1111"
-       y="513" />
+       y="513" onclick="input_txt(this)"/>
     <rect
        style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect4964"
        width="37"
        height="18"
        x="1181"
-       y="432" />
+       y="432" onclick="input_txt(this)"/>
     <rect
        style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect4966"
        width="29"
        height="18"
        x="1181"
-       y="351" />
+       y="351" onclick="input_txt(this)"/>
     <rect
        style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect4968"
        width="40"
        height="20"
        x="1223"
-       y="309" />
+       y="309" onclick="input_txt(this)"/>
     <rect
        style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect4970"
        width="35"
        height="14"
        x="1249"
-       y="341" />
+       y="341" onclick="input_txt(this)"/>
     <rect
        style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect4972"
        width="38"
        height="16"
        x="1253"
-       y="430" />
+       y="430" onclick="input_txt(this)"/>
     <rect
        style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect4974"
        width="32"
        height="16"
        x="1229"
-       y="457" />
+       y="457" onclick="input_txt(this)"/>
     <rect
        style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect4976"
        width="32"
        height="18"
        x="1195"
-       y="472" />
+       y="472" onclick="input_txt(this)"/>
     <rect
        style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect4978"
        width="30"
        height="17"
        x="1198"
-       y="505" />
+       y="505" onclick="input_txt(this)"/>
     <rect
        style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect4980"
        width="34"
        height="21"
        x="1174"
-       y="532" />
+       y="532" onclick="input_txt(this)"/>
     <rect
        style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect4982"
        width="29"
        height="18"
        x="1151"
-       y="553" />
+       y="553" onclick="input_txt(this)"/>
     <rect
        style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect4984"
        width="30"
        height="16"
        x="1159"
-       y="581" />
+       y="581" onclick="input_txt(this)"/>
     <rect
        style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect4986"
        width="32"
        height="16"
        x="1112"
-       y="613" />
+       y="613" onclick="input_txt(this)"/>
     <rect
        style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect4988"
        width="43"
        height="17"
        x="820"
-       y="790" />
+       y="790" onclick="input_txt(this)"/>
     <rect
        style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect4990"
        width="37"
        height="19"
        x="908"
-       y="845" />
+       y="845" onclick="input_txt(this)"/>
     <rect
        style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect4992"
        width="31"
        height="18"
        x="1084"
-       y="775" />
+       y="775" onclick="input_txt(this)"/>
     <rect
        style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect4994"
        width="27"
        height="15"
        x="1067"
-       y="716" />
+       y="716" onclick="input_txt(this)"/>
     <rect
        style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect4996"
        width="42"
        height="14"
        x="1068"
-       y="696" />
+       y="696" onclick="input_txt(this)"/>
     <rect
        style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect4998"
        width="35"
        height="16"
        x="1067"
-       y="655" />
+       y="655" onclick="input_txt(this)"/>
     <rect
        style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect5000"
        width="28"
        height="16"
        x="1115"
-       y="655" />
+       y="655" onclick="input_txt(this)"/>
     <rect
        style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect5002"
        width="40"
        height="18"
        x="1144"
-       y="718" />
+       y="718" onclick="input_txt(this)"/>
     <rect
        style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect5004"
        width="37"
        height="21"
        x="1100"
-       y="833" />
+       y="833" onclick="input_txt(this)"/>
     <rect
        style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect5006"
@@ -1517,7 +1498,6 @@
        height="17"
        x="1365"
        y="782" />
-       <text space="preserve" height="15" width="28" style="font-size:15px" transform="translate(798,903)"><tspan x="0" y="0">111111</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
@@ -1539,21 +1519,22 @@ function input_txt(obj){
          var height = obj.getAttribute('height');
          var t1 = '<text xml:space="preserve" style="font-size:11.88761425px" x="0" y="0" id="text10887"> <tspan id="tspan10889" x="0" y="0">1111</tspan></text>';
 
- var text = document.createElement('text');
- text.setAttribute("xml:space","preserve");
+var SVG_NS = "http://www.w3.org/2000/svg";
+var XLINK_NS = "http://www.w3.org/1999/xlink";
+
+var text = document.createElementNS(SVG_NS,'text');
+text.setAttribute("xml:space","preserve");
 text.setAttribute("x",0);
 text.setAttribute("y",0);
 text.setAttribute("height",height);
 text.setAttribute("style","font-size:"+height+"px");
-text.setAttribute("transform","translate("+x+","+y+")");
+var newH =parseInt(y)+parseInt(height);
+text.setAttribute("transform","translate("+x+","+newH+")");
 
-
-
- var tspan = document.createElement('tspan');
-tspan.innerHTML="111111";
+ var tspan = document.createElementNS(SVG_NS,'tspan');
+tspan.innerHTML="宁波";
 text.appendChild(tspan);
 document.getElementById("layer1").appendChild(text);
-         alert(text.innerHTML);
          }
          //]]>
 </script>
