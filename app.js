@@ -1,22 +1,17 @@
+'use strict';
 var koa = require('koa');
-var views = require('co-views');
+var _ = require('koa-route');
+var session = require('koa-session');
+var serve = require('koa-static');
 var app = koa();
 
-var render = views(__dirname + '/views', { ext: 'ejs' });
+app.keys = "keys";
+app.use(session({
+    "key":'a_token',
+    "maxAge":0
+},app));
 
-var routes = require('./controller/controller');
-var http = require('http');
-var path = require('path');
-var setting = require('./setting');
-var filter = require('./controller/filter');
-var RedisStore = require('connect-redis')(session);
-var dbsetting = require('./model/dbsetting');
+app.use(serve(__dirname + '/app/statics'));
+app.use(_.get('/pets', pets.list));
 
-
-app.use(filter.sessionHandler);
-routes(app);//执行路由
-
-
-app.listen(app.get('port'), function () {
-    console.log("server listening on port " + app.get('port'));
-});
+module.exports = app;

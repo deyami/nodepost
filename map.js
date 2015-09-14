@@ -1,6 +1,4 @@
-/**
- * Created by duyu on 15/9/10.
- */
+'use strict';
 
 module.exports={
     "beitun":"北屯",
@@ -58,7 +56,7 @@ module.exports={
     "yinchuan":"银川",
     "bayanzhuoer":"巴彦淖尔",
     "baotou":"包头",
-    "yulin":"榆林",
+    "yulin_1":"榆林",
     "yanan":"延安",
     "huhehaote":"呼和浩特",
     "wulanchabu":"乌兰察布",
@@ -124,7 +122,7 @@ module.exports={
     "nanyang":"南阳",
     "luohe":"漯河",
     "fuyang":"阜阳",
-    "suzhou":"宿州",
+    "suzhou_2":"宿州",
     "huaian":"淮安",
     "yancheng":"盐城",
     "xiangfan":"襄樊",
@@ -145,7 +143,7 @@ module.exports={
     "huangshan":"黄山",
     "wuhu":"芜湖",
     "wuxi":"无锡",
-    "suzhou":"苏州",
+    "suzhou_1":"苏州",
     "shanghai":"上海",
     "huzhou":"湖州",
     "jiaxing":"嘉兴",
@@ -165,7 +163,7 @@ module.exports={
     "yichun":"宜春",
     "nanchang":"南昌",
     "jingdezhen":"景德镇",
-    "fuzhou":"抚州",
+    "fuzhou_1":"抚州",
     "yingtan":"鹰潭",
     "shangrao":"上饶",
     "lishui":"丽水",
@@ -177,10 +175,9 @@ module.exports={
     "shaoyang":"邵阳",
     "hengyang":"衡阳",
     "jian":"吉安",
-    "sanming":"三明",
     "nanping":"南平",
     "nanning":"南宁",
-    "yulin":"玉林",
+    "yulin_2":"玉林",
     "zhanjiang":"湛江",
     "haikou":"海口",
     "jiangmen":"江门",
@@ -198,8 +195,7 @@ module.exports={
     "meizhou":"梅州",
     "longyan":"龙岩",
     "sanming":"三明",
-    "nanping":"南平",
-    "fuzhou":"福州",
+    "fuzhou_2":"福州",
     "quanzhou":"泉州",
     "xiamen":"厦门",
     "shantou":"汕头",
