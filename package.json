@@ -13,7 +13,8 @@
     "co": "~4.6.0",
     "JSON2": "~0.1.0",
     "koa-session": "~3.3.1",
-    "xtpl":"3.2.0"
+    "xtpl":"3.2.0",
+    "xtemplate":"4.3.1"
   },
   "scripts": {
     "start": "NODE_ENV=local node --harmony bin/app.js"
