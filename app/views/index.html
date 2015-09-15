@@ -3,7 +3,7 @@
 <head lang="en">
     <meta charset="UTF-8">
     <title></title>
-    <script src="../statics/jquery-1.11.3.min.js" type="text/javascript"></script>
+    <script src="/jquery-1.11.3.min.js" type="text/javascript"></script>
 </head>
 <body>
 
@@ -60,7 +60,7 @@
             inkscape:label="Layer 1"
             inkscape:groupmode="layer">
         <image
-                xlink:href="../statics/youlu.gif"
+                xlink:href="/youlu.gif"
                 width="1607"
                 height="1247"
                 preserveAspectRatio="none"
@@ -1514,62 +1514,68 @@
 
 </body>
 
-<script src="../statics/jquery-1.11.3.min.js" type="text/javascript"></script>
 <script type="text/javascript" >
-    var changeTxt = function(){
-        var newtxt = prompt("修改城市名称",this.innerHTML);
-        this.innerHTML=newtxt;
-    };
+        var changeTxt = function () {
+                var rect = document.getElementById(this.id.split("_")[1]);
+                var newtxt = prompt("修改城市名称", this.innerHTML);
+                this.innerHTML = newtxt;
+                fixWidth(rect,this);
+        };
 
-    var newTxt = function(){
-        var newtxt = prompt("输入城市名称","");
-        return newtxt;
-    };
-
-    function input_txt(obj){
-        var SVG_NS = "http://www.w3.org/2000/svg";
-        var XLINK_NS = "http://www.w3.org/1999/xlink";
-
-        var x = obj.getAttribute('x');
-        var y = obj.getAttribute('y');
-        var height = obj.getAttribute('height');
-
-        var text_id="text_"+obj.id;
-        var span_id="span_"+obj.id;
-
-        var text = document.getElementById(text_id);
-
-        if(!text || text == null){
-            text = document.createElementNS(SVG_NS,'text');
-            text.setAttribute("id",text_id);
-            text.setAttribute("xml:space","preserve");
-            text.setAttribute("x",0);
-            text.setAttribute("y",0);
-            text.setAttribute("height",400);
-            text.setAttribute("style","font-size:"+height+"px");
-
-            var newH =parseInt(y)+parseInt(height);
-            text.setAttribute("transform","translate("+x+","+newH+")");
-
-            var tspan = document.createElementNS(SVG_NS,'tspan');
-            tspan.setAttribute("id",span_id);
-            tspan.setAttribute("height",300);
-            tspan.onclick=changeTxt;
-            tspan.innerHTML= newTxt();
-            text.appendChild(tspan);
-            document.getElementById("layer1").appendChild(text);
-        }else{
-            var span = document.getElementById(span_id);
-            span.onclick()
+        var fixWidth = function(rect,span){
+                var textLength = span.getComputedTextLength();
+                if (textLength < 30) textLength = 30;
+                rect.width.baseVal.value = textLength;
         }
 
-    }
+        var newTxt = function () {
+                var newtxt = prompt("输入城市名称", "");
+                return newtxt;
+        };
 
-    $(function(){
-        $('rect').click(function(){
-            input_txt(this);
-        });
-    })
+        function input_txt(obj) {
+                var SVG_NS = "http://www.w3.org/2000/svg";
+                var XLINK_NS = "http://www.w3.org/1999/xlink";
+
+                var x = obj.getAttribute('x');
+                var y = obj.getAttribute('y');
+                var height = obj.getAttribute('height');
+
+                var text_id = "text_" + obj.id;
+                var span_id = "span_" + obj.id;
+
+                var text = document.getElementById(text_id);
+
+                if (!text || text == null) {
+                        text = document.createElementNS(SVG_NS, 'text');
+                        text.setAttribute("id", text_id);
+                        text.setAttribute("xml:space", "preserve");
+                        text.setAttribute("x", 0);
+                        text.setAttribute("y", 0);
+                        text.setAttribute("style", "font-size:" + (parseInt(height) - 4) + "px");
+
+                        var newH = parseInt(y) + parseInt(height) - 3;
+                        text.setAttribute("transform", "translate(" + x + "," + newH + ")");
+
+                        var tspan = document.createElementNS(SVG_NS, 'tspan');
+                        tspan.setAttribute("id", span_id);
+                        tspan.onclick = changeTxt;
+                        tspan.innerHTML = newTxt();
+                        text.appendChild(tspan);
+                        document.getElementById("layer1").appendChild(text);
+                        fixWidth(obj,document.getElementById(span_id));
+                } else {
+                        var span = document.getElementById(span_id);
+                        span.onclick()
+                }
+
+        }
+
+        $(function () {
+                $('rect').click(function () {
+                        input_txt(this);
+                });
+        })
 
 
 </script>

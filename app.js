@@ -12,6 +12,7 @@ app.use(session({
 },app));
 
 app.use(serve(__dirname + '/app/statics'));
-app.use(_.get('/pets', pets.list));
+app.use(serve(__dirname + '/app/views'));
+//app.use(_.get('/index.htmll', pets.list));
 
 module.exports = app;
