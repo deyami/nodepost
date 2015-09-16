@@ -1514,9 +1514,13 @@
     </g>
 </svg>
 <div id="begin" title="准备考试">
-
 </div>
+<input id="answer"  type="text" title="请输入城市名称">
+</input>
 <div id="alert" title="剩余时长">
+</div>
+<div id="alert2" title="考试结束">
+答题结束，请交卷！
 </div>
 </body>
 
@@ -1583,8 +1587,25 @@
         function refresh(){
                 totalTime-=1000;
                 if(totalTime <= 0){
-                alert("答卷结束");
                 window.clearTimeout(timer);
+                $( "#alert1" ).dialog("close");
+                $( "#alert2" ).dialog({
+                                				autoOpen: true,
+                                				modal:true,
+                                                draggable:false,
+                                                resizable:false,
+                                				position:[100, 100],
+                                                width: 200,
+                                                buttons: [
+                                                                		{
+                                                                			text: "交卷",
+                                                                			click: function() {
+                                                                				alert("交卷成功");
+                                                                			}
+                                                                		}
+                                                                	]
+                                				});
+
                 }
                 $("#alert").html(parseInt(totalTime/60/1000)+"分"+parseInt((totalTime-parseInt(totalTime/60/1000)*60*1000)/1000)+"秒");
         }
