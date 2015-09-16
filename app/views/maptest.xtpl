@@ -3,7 +3,9 @@
 <head lang="en">
     <meta charset="UTF-8">
     <title></title>
+    <link href="/css/jquery-ui.css" rel="stylesheet">
     <script src="/jquery-1.11.3.min.js" type="text/javascript"></script>
+    <script src="/jquery-ui.js"></script>
 </head>
 <body>
 
@@ -181,1340 +183,1347 @@
                 y="671" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect10781"
+                id="rikeze"
                 width="60"
                 height="23"
                 x="208"
                 y="726" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect10783"
+                id="yinchuan"
                 width="36"
                 height="24"
                 x="785"
                 y="436" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect10785"
+                id="lanzhou"
                 width="38"
                 height="22"
                 x="658"
                 y="552" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect10787"
+                id="guyuan"
                 width="40"
                 height="20"
                 x="803"
                 y="549" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect10789"
+                id="tianshui"
                 width="34"
                 height="16"
                 x="778"
                 y="582" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect10791"
+                id="yulin_1"
                 width="34"
                 height="23"
                 x="872"
                 y="495" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect10793"
+                id="yanan"
                 width="34"
                 height="20"
                 x="872"
                 y="531" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect10795"
+                id="xian"
                 width="45"
                 height="20"
                 x="856"
                 y="606" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect10797"
+                id="pingliang"
                 width="39"
                 height="21"
                 x="827"
                 y="574" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect10799"
+                id="baoji"
                 width="41"
                 height="20"
                 x="773"
                 y="623" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect10801"
+                id="guangyuan"
                 width="33"
                 height="20"
                 x="748"
                 y="684" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect10803"
+                id="chengdu"
                 width="41"
                 height="21"
                 x="700"
                 y="715" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect10805"
+                id="changdu"
                 width="46"
                 height="20"
                 x="466"
                 y="704" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect10807"
+                id="yaan"
                 width="39"
                 height="18"
                 x="652"
                 y="758" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect10809"
+                id="mianyang"
                 width="27"
                 height="16"
                 x="775"
                 y="710" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect10811"
+                id="hanzhong"
                 width="38"
                 height="18"
                 x="808"
                 y="692" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect10813"
+                id="ankang"
                 width="38"
                 height="20"
                 x="843"
                 y="669" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect10815"
+                id="shangluo"
                 width="41"
                 height="18"
                 x="920"
                 y="654" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect10817"
+                id="shiyan"
                 width="41"
                 height="11"
                 x="923"
                 y="676" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect10819"
+                id="nanyang"
                 width="29"
                 height="18"
                 x="978"
                 y="680" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect10821"
+                id="xiangfan"
                 width="29"
                 height="16"
                 x="978"
                 y="706" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect10823"
+                id="jingzhou"
                 width="31"
                 height="16"
                 x="978"
                 y="759" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect10825"
+                id="changde"
                 width="34"
                 height="19"
                 x="980"
                 y="797" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect10827"
+                id="wuhan"
                 width="37"
                 height="21"
                 x="1018"
                 y="769" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect10829"
+                id="yueyang"
                 width="26"
                 height="14"
                 x="1027"
                 y="820" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect10831"
+                id="changsha"
                 width="30"
                 height="20"
                 x="1027"
                 y="839" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect10833"
+                id="xianning"
                 width="30"
                 height="17"
                 x="1052"
                 y="810" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect10835"
+                id="nanchong"
                 width="30"
                 height="16"
                 x="808"
                 y="737" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect10837"
+                id="dazhou"
                 width="35"
                 height="16"
                 x="846"
                 y="727" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect10839"
+                id="wanzhou"
                 width="32"
                 height="15"
                 x="871"
                 y="757" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect10841"
+                id="enshi"
                 width="33"
                 height="15"
                 x="880"
                 y="775" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect10843"
+                id="yichang"
                 width="30"
                 height="15"
                 x="929"
                 y="758" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect10845"
+                id="neijiang"
                 width="29"
                 height="15"
                 x="727"
                 y="791" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect10847"
+                id="yinbin"
                 width="29"
                 height="15"
                 x="716"
                 y="809" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect10849"
+                id="leshan"
                 width="30"
                 height="15"
                 x="670"
                 y="790" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect10851"
+                id="xichang"
                 width="29"
                 height="18"
                 x="674"
                 y="832" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect10853"
+                id="panzhihua"
                 width="44"
                 height="18"
                 x="656"
                 y="868" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect10855"
+                id="dali"
                 width="30"
                 height="17"
                 x="609"
                 y="916" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect10857"
+                id="chuxiong"
                 width="28"
                 height="18"
                 x="654"
                 y="918" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect10859"
+                id="baoshan"
                 width="32"
                 height="17"
                 x="563"
                 y="933" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect10861"
+                id="lincang"
                 width="32"
                 height="18"
                 x="592"
                 y="987" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect10863"
+                id="puer"
                 width="30"
                 height="21"
                 x="626"
                 y="1028" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect10865"
+                id="kunming"
                 width="38"
                 height="19"
                 x="713"
                 y="941" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect10867"
+                id="qujing"
                 width="30"
                 height="15"
                 x="688"
                 y="907" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect10869"
+                id="wenshan"
                 width="34"
                 height="18"
                 x="764"
                 y="1016" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect10871"
+                id="gejiu"
                 width="30"
                 height="18"
                 x="719"
                 y="1013" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect10873"
+                id="liupanshui"
                 width="41"
                 height="17"
                 x="751"
                 y="890" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect10875"
+                id="anshun"
                 width="34"
                 height="15"
                 x="767"
                 y="862" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect10877"
+                id="zhaotong"
                 width="28"
                 height="16"
                 x="733"
                 y="846" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect10879"
+                id="luozhou"
                 width="28"
                 height="17"
                 x="781"
                 y="816" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect10881"
+                id="zunyi"
                 width="30"
                 height="14"
                 x="817"
                 y="840" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect10883"
+                id="guiyang"
                 width="30"
                 height="15"
                 x="798"
                 y="887" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect10885"
+                id="kaili"
                 width="35"
                 height="17"
                 x="860"
                 y="860" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect4926"
+                id="shuozhou"
                 width="36"
                 height="18"
                 x="971"
                 y="444" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect4928"
+                id="wulanchabu"
                 width="56"
                 height="17"
                 x="1046"
                 y="356" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect4930"
+                id="datong"
                 width="35"
                 height="19"
                 x="999"
                 y="396" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect4932"
+                id="zhangjiakou"
                 width="48"
                 height="17"
                 x="1111"
                 y="361" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect4934"
+                id="beijing"
                 width="40"
                 height="17"
                 x="1093"
                 y="428" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect4936"
+                id="baoding"
                 width="33"
                 height="16"
                 x="1084"
                 y="448" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect4938"
+                id="shijiazhuang"
                 width="49"
                 height="21"
                 x="1041"
                 y="477" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect4940"
+                id="yangquan"
                 width="33"
                 height="15"
                 x="1041"
                 y="502" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect4942"
+                id="taiyuan"
                 width="38"
                 height="22"
                 x="985"
                 y="491" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect4944"
+                id="houma"
                 width="33"
                 height="17"
                 x="956"
                 y="567" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect4946"
+                id="luoyang"
                 width="33"
                 height="20"
                 x="985"
                 y="607" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect4948"
+                id="zhengzhou"
                 width="34"
                 height="17"
                 x="1032"
                 y="611" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect4950"
+                id="xingtai"
                 width="30"
                 height="17"
                 x="1059"
                 y="526" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect4952"
+                id="changzhi"
                 width="28"
                 height="16"
                 x="1047"
                 y="554" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect4954"
+                id="xinxiang"
                 width="26"
                 height="16"
                 x="1064"
                 y="581" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect4956"
+                id="handan"
                 width="36"
                 height="16"
                 x="1098"
                 y="540" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect4958"
+                id="anyang"
                 width="35"
                 height="17"
                 x="1099"
                 y="560" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect4960"
+                id="heze"
                 width="32"
                 height="13"
                 x="1112"
                 y="585" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect4962"
+                id="hengshui"
                 width="29"
                 height="19"
                 x="1111"
                 y="513" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect4964"
+                id="tianjin"
                 width="37"
                 height="18"
                 x="1181"
                 y="432" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect4966"
+                id="chengde"
                 width="29"
                 height="18"
                 x="1181"
                 y="351" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect4968"
+                id="chifeng"
                 width="40"
                 height="20"
                 x="1223"
                 y="309" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect4970"
+                id="chaoyang"
                 width="35"
                 height="14"
                 x="1249"
                 y="341" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect4972"
+                id="qinhuangdao"
                 width="38"
                 height="16"
                 x="1253"
                 y="430" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect4974"
+                id="tangshan"
                 width="32"
                 height="16"
                 x="1229"
                 y="457" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect4976"
+                id="cangzhou"
                 width="32"
                 height="18"
                 x="1195"
                 y="472" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect4978"
+                id="dezhou"
                 width="30"
                 height="17"
                 x="1198"
                 y="505" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect4980"
+                id="jinan"
                 width="34"
                 height="21"
                 x="1174"
                 y="532" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect4982"
+                id="liaocheng"
                 width="29"
                 height="18"
                 x="1151"
                 y="553" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect4984"
+                id="jining"
                 width="30"
                 height="16"
                 x="1159"
                 y="581" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect4986"
+                id="shangqiu"
                 width="32"
                 height="16"
                 x="1112"
                 y="613" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect4988"
+                id="chongqing"
                 width="43"
                 height="17"
                 x="820"
                 y="790" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect4990"
+                id="jishou"
                 width="37"
                 height="19"
                 x="908"
                 y="845" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect4992"
+                id="huangshi"
                 width="31"
                 height="18"
                 x="1084"
                 y="775" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect4994"
+                id="xinyang"
                 width="27"
                 height="15"
                 x="1067"
                 y="716" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect4996"
+                id="zhumadian"
                 width="42"
                 height="14"
                 x="1068"
                 y="696" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect4998"
+                id="luohe"
                 width="35"
                 height="16"
                 x="1067"
                 y="655" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect5000"
+                id="fuyang"
                 width="28"
                 height="16"
                 x="1115"
                 y="655" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect5002"
+                id="hefei"
                 width="40"
                 height="18"
                 x="1144"
                 y="718" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect5004"
+                id="nanchang"
                 width="37"
                 height="21"
                 x="1100"
                 y="833" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect5006"
+                id="loudi"
                 width="38"
                 height="15"
                 x="972"
                 y="860" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect5008"
+                id="shaoyang"
                 width="33"
                 height="14"
                 x="973"
                 y="898" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect5010"
+                id="yongzhou"
                 width="37"
                 height="15"
                 x="974"
                 y="937" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect5012"
+                id="guilin"
                 width="35"
                 height="16"
                 x="941"
                 y="966" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect5014"
+                id="liuzhou"
                 width="39"
                 height="17"
                 x="910"
                 y="993" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect5016"
+                id="wuzhou"
                 width="36"
                 height="13"
                 x="947"
                 y="1017" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect5018"
+                id="zhaoqing"
                 width="36"
                 height="17"
                 x="975"
                 y="1041" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect5020"
+                id="yulin_2"
                 width="32"
                 height="18"
                 x="931"
                 y="1053" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect5022"
+                id="zhanjiang"
                 width="33"
                 height="19"
                 x="907"
                 y="1104" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect5024"
+                id="nanning"
                 width="35"
                 height="20"
                 x="842"
                 y="1051" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect5026"
+                id="baise"
                 width="33"
                 height="22"
                 x="830"
                 y="979" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect5028"
+                id="hechi"
                 width="37"
                 height="17"
                 x="851"
                 y="933" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect5030"
+                id="yuping"
                 width="32"
                 height="18"
                 x="881"
                 y="885" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect5032"
+                id="huaihua"
                 width="29"
                 height="16"
                 x="933"
                 y="883" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect5034"
+                id="haikou"
                 width="38"
                 height="20"
                 x="960"
                 y="1132" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect5036"
+                id="jiangmen"
                 width="33"
                 height="13"
                 x="996"
                 y="1074" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect5038"
+                id="dongguan"
                 width="29"
                 height="15"
                 x="1028"
                 y="1059" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect5040"
+                id="shenzhen"
                 width="29"
                 height="18"
                 x="1074"
                 y="1061" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect5042"
+                id="xianggang"
                 width="75"
                 height="23"
                 x="1074"
                 y="1089" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1.14629149;stroke-opacity:1"
-                id="rect5044"
+                id="zhuhai"
                 width="26.853708"
                 height="15.853708"
                 x="1032.0731"
                 y="1082.0731" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect5046"
+                id="aomen"
                 width="26"
                 height="16"
                 x="1033"
                 y="1098" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect5048"
+                id="huizhou"
                 width="33"
                 height="16"
                 x="1108"
                 y="1045" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect5050"
+                id="shantou"
                 width="31"
                 height="18"
                 x="1160"
                 y="1023" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect5052"
+                id="xiamen"
                 width="38"
                 height="17"
                 x="1208"
                 y="992" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect5054"
+                id="quanzhou"
                 width="32"
                 height="17"
                 x="1254"
                 y="977" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect5056"
+                id="fuzhou_2"
                 width="42"
                 height="23"
                 x="1289"
                 y="940" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect5058"
+                id="taibei"
                 width="44"
                 height="22"
                 x="1348"
                 y="983" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1.14444435;stroke-opacity:1"
-                id="rect5060"
+                id="taidong"
                 width="44.855556"
                 height="19.855556"
                 x="1347.0723"
                 y="1057.0723" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1.16568875;stroke-opacity:1"
-                id="rect5062"
+                id="gaoxiong"
                 width="41.834312"
                 height="22.834311"
                 x="1271.0829"
                 y="1055.0829" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect5064"
+                id="longyan"
                 width="30"
                 height="17"
                 x="1151"
                 y="967" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect5066"
+                id="meizhou"
                 width="38"
                 height="18"
                 x="1111"
                 y="990" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect5068"
+                id="guangzhou"
                 width="37"
                 height="18"
                 x="1048"
                 y="1023" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect5070"
+                id="shaoguan"
                 width="30"
                 height="17"
                 x="1049"
                 y="979" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect5072"
+                id="chenzhou"
                 width="34"
                 height="17"
                 x="1045"
                 y="953" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect5074"
+                id="hengyang"
                 width="33"
                 height="17"
                 x="1029"
                 y="921" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect5076"
+                id="zhuzhou"
                 width="32"
                 height="17"
                 x="1031"
                 y="882" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect5078"
+                id="yichun"
                 width="31"
                 height="17"
                 x="1070"
                 y="870" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect5080"
+                id="jian"
                 width="32"
                 height="16"
                 x="1113"
                 y="893" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect5082"
+                id="ganzhou"
                 width="34"
                 height="16"
                 x="1113"
                 y="937" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect5084"
+                id="fuzhou_1"
                 width="37"
                 height="18"
                 x="1163"
                 y="886" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect5086"
+                id="sanming"
                 width="30"
                 height="16"
                 x="1186"
                 y="918" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect5088"
+                id="shangrao"
                 width="37"
                 height="18"
                 x="1231"
                 y="849" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect5090"
+                id="nanping"
                 width="34"
                 height="16"
                 x="1252"
                 y="909" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect5092"
+                id="lishui"
                 width="29"
                 height="18"
                 x="1276"
                 y="853" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect5094"
+                id="wenzhou"
                 width="47"
                 height="19"
                 x="1347"
                 y="858" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect5096"
+                id="taizhou"
                 width="39"
                 height="18"
                 x="1361"
                 y="830" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect5098"
+                id="jinhua"
                 width="31"
                 height="16"
                 x="1312"
                 y="819" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect5100"
+                id="quzhou"
                 width="35"
                 height="14"
                 x="1239"
                 y="813" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect5102"
+                id="huangshan"
                 width="30"
                 height="14"
                 x="1214"
                 y="803" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect5104"
+                id="jiujiang"
                 width="33"
                 height="16"
                 x="1154"
                 y="807" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect5106"
+                id="jingdezhen"
                 width="42"
                 height="15"
                 x="1157"
                 y="825" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1.16462862;stroke-opacity:1"
-                id="rect5108"
+                id="yingtan"
                 width="30.835371"
                 height="15.835371"
                 x="1168.0823"
                 y="840.08234" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect5110"
+                id="anqing"
                 width="37"
                 height="14"
                 x="1188"
                 y="780" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect5112"
+                id="nanjing"
                 width="34"
                 height="14"
                 x="1199"
                 y="707" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect5114"
+                id="bengbu"
                 width="36"
                 height="14"
                 x="1208"
                 y="667" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect5116"
+                id="suzhou_2"
                 width="33"
                 height="16"
                 x="1193"
                 y="644" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect5118"
+                id="xuzhou"
                 width="30"
                 height="14"
                 x="1194"
                 y="614" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect5120"
+                id="linyi"
                 width="32"
                 height="13"
                 x="1211"
                 y="581" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect5122"
+                id="zibo"
                 width="33"
                 height="16"
                 x="1234"
                 y="521" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect5124"
+                id="yantai"
                 width="28"
                 height="18"
                 x="1306"
                 y="485" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect5126"
+                id="weifang"
                 width="34"
                 height="15"
                 x="1319"
                 y="534" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect5128"
+                id="qingdao"
                 width="37"
                 height="14"
                 x="1332"
                 y="553" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect5130"
+                id="dalian"
                 width="30"
                 height="18"
                 x="1300"
                 y="439" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect5132"
+                id="yingkou"
                 width="32"
                 height="15"
                 x="1360"
                 y="392" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect5134"
+                id="jinzhou"
                 width="27"
                 height="16"
                 x="1314"
                 y="368" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect5136"
+                id="anshan"
                 width="31"
                 height="14"
                 x="1349"
                 y="359" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect5138"
+                id="shenyang"
                 width="32"
                 height="14"
                 x="1346"
                 y="333" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect5140"
+                id="fuxin"
                 width="27"
                 height="13"
                 x="1333"
                 y="318" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect5142"
+                id="dandong"
                 width="40"
                 height="17"
                 x="1431"
                 y="384" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect5144"
+                id="tonghua"
                 width="44"
                 height="18"
                 x="1426"
                 y="346" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect5146"
+                id="yanji"
                 width="30"
                 height="15"
                 x="1478"
                 y="243" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect5148"
+                id="jilin"
                 width="13"
                 height="37"
                 x="1437"
                 y="256" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect5150"
+                id="siping"
                 width="27"
                 height="16"
                 x="1404"
                 y="285" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect5152"
+                id="changchun"
                 width="36"
                 height="20"
                 x="1384"
                 y="242" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect5154"
+                id="tongliao"
                 width="35"
                 height="16"
                 x="1336"
                 y="280" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect5156"
+                id="jiagedaqi"
                 width="61"
                 height="20"
                 x="1342"
                 y="40" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect5158"
+                id="hulunbeier"
                 width="62"
                 height="19"
                 x="1217"
                 y="60" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect5160"
+                id="qiqihaer"
                 width="49"
                 height="17"
                 x="1284"
                 y="122" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1.21517253;stroke-opacity:1"
-                id="rect5162"
+                id="baicheng"
                 width="39.784828"
                 height="20.784828"
                 x="1332.1075"
                 y="183.10759" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect5164"
+                id="haerbin"
                 width="49"
                 height="21"
                 x="1389"
                 y="161" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect5166"
+                id="mudanjiang"
                 width="49"
                 height="16"
                 x="1492"
                 y="167" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect5168"
+                id="jiamusi"
                 width="41"
                 height="18"
                 x="1547"
                 y="104" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect5170"
+                id="lianyungang"
                 width="40"
                 height="17"
                 x="1287"
                 y="622" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect5172"
+                id="yancheng"
                 width="37"
                 height="16"
                 x="1327"
                 y="641" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect5174"
+                id="huaian"
                 width="33"
                 height="16"
                 x="1245"
                 y="635" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect5176"
+                id="yangzhou"
                 width="35"
                 height="14"
                 x="1245"
                 y="658" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect5178"
+                id="changzhou"
                 width="34"
                 height="15"
                 x="1277"
                 y="699" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect5180"
+                id="nantong"
                 width="44"
                 height="19"
                 x="1339"
                 y="695" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect5182"
+                id="suzhou_1"
                 width="32"
                 height="14"
                 x="1328"
                 y="720" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect5184"
+                id="shanghai"
                 width="39"
                 height="16"
                 x="1349"
                 y="740" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect5186"
+                id="wuxi"
                 width="28"
                 height="15"
                 x="1273"
                 y="725" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect5188"
+                id="wuhu"
                 width="29"
                 height="15"
                 x="1249"
                 y="739" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect5190"
+                id="huzhou"
                 width="23"
                 height="17"
                 x="1303"
                 y="737" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect5192"
+                id="hangzhou"
                 width="33"
                 height="16"
                 x="1316"
                 y="773" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect5194"
+                id="jiaxing"
                 width="25"
                 height="17"
                 x="1326"
                 y="753" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-                id="rect5196"
+                id="ningbo"
                 width="28"
                 height="17"
                 x="1365"
                 y="782" />
         <rect
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1.06003642;stroke-opacity:1"
-                id="rect10747"
+                id="beitun"
                 width="52.939964"
                 height="24.939964"
                 x="356.03003"
                 y="45.030018" />
     </g>
 </svg>
+<div id="begin" title="准备考试">
 
+</div>
+<div id="alert" title="剩余时长">
+</div>
 </body>
 
 <script type="text/javascript" >
+
+        var totalTime = 1*60*1000;
+        var timer;
         var changeTxt = function () {
                 var rect = document.getElementById(this.id.split("_")[1]);
                 var newtxt = prompt("修改城市名称", this.innerHTML);
@@ -1571,9 +1580,42 @@
 
         }
 
+        function refresh(){
+                totalTime-=1000;
+                if(totalTime <= 0){
+                alert("答卷结束");
+                window.clearTimeout(timer);
+                }
+                $("#alert").html(parseInt(totalTime/60/1000)+"分"+parseInt((totalTime-parseInt(totalTime/60/1000)*60*1000)/1000)+"秒");
+        }
+
         $(function () {
                 $('rect').click(function () {
                         input_txt(this);
+                });
+
+                $("#begin").html("准备好考试了吗？时长"+(totalTime/60/1000)+"分钟") ;
+                $( "#begin" ).dialog({
+                	autoOpen: true,
+                	width: 400,
+                	modal:true,
+                	draggable:false,
+                	resizable:false,
+                	overlay: {opacity: 0.5, background: "black" ,overflow:'auto'},
+                	buttons: [
+                		{
+                			text: "开始考试",
+                			click: function() {
+                				$( this ).dialog( "close" );
+                				$( "#alert" ).dialog({
+                				autoOpen: true,
+                				position:[100, 100],
+                                                	width: 200
+                				});
+                				timer=window.setInterval(refresh,1000);
+                			}
+                		}
+                	]
                 });
         })
 

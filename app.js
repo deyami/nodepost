@@ -20,6 +20,7 @@ app.use(serve(__dirname + '/app/statics'));
 
 
 app.use(_.get('/login',Controller.login));
+app.use(_.post('/dologin',Controller.dologin));
 app.use(_.get('/maptest',Controller.maptest));
 
 module.exports = app;
