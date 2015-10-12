@@ -3,12 +3,24 @@
 <head lang="en">
     <meta charset="UTF-8">
     <title></title>
-    <link href="/css/jquery-ui.css" rel="stylesheet">
-    <script src="/jquery-1.11.3.min.js" type="text/javascript"></script>
-    <script src="/jquery-ui.js"></script>
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <script src="/js/jquery.min.js" type="text/javascript"></script>
+    <script src="/js/bootstrap.min.js" type="text/javascript"></script>
+
 </head>
 <body>
-
+<table class="table table-striped">
+ <tr>
+        <td class="active" >
+                <h4 >
+                剩余时间：
+                <span class="bg-primary" id="alert" title="剩余时长">0分0秒</span>
+                </h4>
+        </td>
+       <td ><button class="btn btn-primary" type="submit" id="finishExam">交卷</button></td>
+</tr>
+ <tr>
+ <td colspan="2">
 <svg
         xmlns:dc="http://purl.org/dc/elements/1.1/"
         xmlns:cc="http://creativecommons.org/ns#"
@@ -69,1442 +81,1442 @@
                 id="image9874"
                 x="-4.333344"
                 y="-39.666656" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal" 
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="kelamayi"
                 width="66"
                 height="21"
                 x="270"
                 y="125" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="yining"
                 width="46"
                 height="14"
                 x="207"
                 y="179" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="wulumuqi"
                 width="66"
                 height="22"
                 x="337"
                 y="194" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="kuerle"
                 width="51"
                 height="20"
                 x="290"
                 y="286" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="akesu"
                 width="51"
                 height="21"
                 x="166"
                 y="275" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="kashi"
                 width="47"
                 height="21"
                 x="73"
                 y="316" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="hami"
                 width="43"
                 height="23"
                 x="522"
                 y="269" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="jiuquan"
                 width="43"
                 height="22"
                 x="654"
                 y="403" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="bayanzhuoer"
                 width="60"
                 height="22"
                 x="804"
                 y="342" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="baotou"
                 width="41"
                 height="19"
                 x="898"
                 y="347" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="huhehaote"
                 width="70"
                 height="23"
                 x="950"
                 y="340" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="xining"
                 width="43"
                 height="23"
                 x="650"
                 y="506" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="zhangye"
                 width="34"
                 height="19"
                 x="708"
                 y="465" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="wuwei"
                 width="35"
                 height="17"
                 x="707"
                 y="507" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="geermu"
                 width="47"
                 height="20"
                 x="460"
                 y="491" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="lasa"
                 width="50"
                 height="29"
                 x="265"
                 y="671" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="rikeze"
                 width="60"
                 height="23"
                 x="208"
                 y="726" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="yinchuan"
                 width="36"
                 height="24"
                 x="785"
                 y="436" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="lanzhou"
                 width="38"
                 height="22"
                 x="658"
                 y="552" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="guyuan"
                 width="40"
                 height="20"
                 x="803"
                 y="549" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="tianshui"
                 width="34"
                 height="16"
                 x="778"
                 y="582" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="yulin_1"
                 width="34"
                 height="23"
                 x="872"
                 y="495" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="yanan"
                 width="34"
                 height="20"
                 x="872"
                 y="531" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="xian"
                 width="45"
                 height="20"
                 x="856"
                 y="606" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="pingliang"
                 width="39"
                 height="21"
                 x="827"
                 y="574" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="baoji"
                 width="41"
                 height="20"
                 x="773"
                 y="623" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="guangyuan"
                 width="33"
                 height="20"
                 x="748"
                 y="684" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="chengdu"
                 width="41"
                 height="21"
                 x="700"
                 y="715" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="changdu"
                 width="46"
                 height="20"
                 x="466"
                 y="704" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="yaan"
                 width="39"
                 height="18"
                 x="652"
                 y="758" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="mianyang"
                 width="27"
                 height="16"
                 x="775"
                 y="710" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="hanzhong"
                 width="38"
                 height="18"
                 x="808"
                 y="692" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="ankang"
                 width="38"
                 height="20"
                 x="843"
                 y="669" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="shangluo"
                 width="41"
                 height="18"
                 x="920"
                 y="654" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="shiyan"
                 width="41"
                 height="11"
                 x="923"
                 y="676" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="nanyang"
                 width="29"
                 height="18"
                 x="978"
                 y="680" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="xiangfan"
                 width="29"
                 height="16"
                 x="978"
                 y="706" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="jingzhou"
                 width="31"
                 height="16"
                 x="978"
                 y="759" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="changde"
                 width="34"
                 height="19"
                 x="980"
                 y="797" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="wuhan"
                 width="37"
                 height="21"
                 x="1018"
                 y="769" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="yueyang"
                 width="26"
                 height="14"
                 x="1027"
                 y="820" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="changsha"
                 width="30"
                 height="20"
                 x="1027"
                 y="839" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="xianning"
                 width="30"
                 height="17"
                 x="1052"
                 y="810" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="nanchong"
                 width="30"
                 height="16"
                 x="808"
                 y="737" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="dazhou"
                 width="35"
                 height="16"
                 x="846"
                 y="727" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="wanzhou"
                 width="32"
                 height="15"
                 x="871"
                 y="757" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="enshi"
                 width="33"
                 height="15"
                 x="880"
                 y="775" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="yichang"
                 width="30"
                 height="15"
                 x="929"
                 y="758" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="neijiang"
                 width="29"
                 height="15"
                 x="727"
                 y="791" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="yinbin"
                 width="29"
                 height="15"
                 x="716"
                 y="809" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="leshan"
                 width="30"
                 height="15"
                 x="670"
                 y="790" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="xichang"
                 width="29"
                 height="18"
                 x="674"
                 y="832" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="panzhihua"
                 width="44"
                 height="18"
                 x="656"
                 y="868" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="dali"
                 width="30"
                 height="17"
                 x="609"
                 y="916" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="chuxiong"
                 width="28"
                 height="18"
                 x="654"
                 y="918" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="baoshan"
                 width="32"
                 height="17"
                 x="563"
                 y="933" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="lincang"
                 width="32"
                 height="18"
                 x="592"
                 y="987" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="puer"
                 width="30"
                 height="21"
                 x="626"
                 y="1028" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="kunming"
                 width="38"
                 height="19"
                 x="713"
                 y="941" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="qujing"
                 width="30"
                 height="15"
                 x="688"
                 y="907" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="wenshan"
                 width="34"
                 height="18"
                 x="764"
                 y="1016" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="gejiu"
                 width="30"
                 height="18"
                 x="719"
                 y="1013" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="liupanshui"
                 width="41"
                 height="17"
                 x="751"
                 y="890" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="anshun"
                 width="34"
                 height="15"
                 x="767"
                 y="862" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="zhaotong"
                 width="28"
                 height="16"
                 x="733"
                 y="846" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="luozhou"
                 width="28"
                 height="17"
                 x="781"
                 y="816" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="zunyi"
                 width="30"
                 height="14"
                 x="817"
                 y="840" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="guiyang"
                 width="30"
                 height="15"
                 x="798"
                 y="887" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="kaili"
                 width="35"
                 height="17"
                 x="860"
                 y="860" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="shuozhou"
                 width="36"
                 height="18"
                 x="971"
                 y="444" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="wulanchabu"
                 width="56"
                 height="17"
                 x="1046"
                 y="356" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="datong"
                 width="35"
                 height="19"
                 x="999"
                 y="396" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="zhangjiakou"
                 width="48"
                 height="17"
                 x="1111"
                 y="361" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="beijing"
                 width="40"
                 height="17"
                 x="1093"
                 y="428" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="baoding"
                 width="33"
                 height="16"
                 x="1084"
                 y="448" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="shijiazhuang"
                 width="49"
                 height="21"
                 x="1041"
                 y="477" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="yangquan"
                 width="33"
                 height="15"
                 x="1041"
                 y="502" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="taiyuan"
                 width="38"
                 height="22"
                 x="985"
                 y="491" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="houma"
                 width="33"
                 height="17"
                 x="956"
                 y="567" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="luoyang"
                 width="33"
                 height="20"
                 x="985"
                 y="607" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="zhengzhou"
                 width="34"
                 height="17"
                 x="1032"
                 y="611" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="xingtai"
                 width="30"
                 height="17"
                 x="1059"
                 y="526" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="changzhi"
                 width="28"
                 height="16"
                 x="1047"
                 y="554" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="xinxiang"
                 width="26"
                 height="16"
                 x="1064"
                 y="581" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="handan"
                 width="36"
                 height="16"
                 x="1098"
                 y="540" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="anyang"
                 width="35"
                 height="17"
                 x="1099"
                 y="560" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="heze"
                 width="32"
                 height="13"
                 x="1112"
                 y="585" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="hengshui"
                 width="29"
                 height="19"
                 x="1111"
                 y="513" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="tianjin"
                 width="37"
                 height="18"
                 x="1181"
                 y="432" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="chengde"
                 width="29"
                 height="18"
                 x="1181"
                 y="351" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="chifeng"
                 width="40"
                 height="20"
                 x="1223"
                 y="309" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="chaoyang"
                 width="35"
                 height="14"
                 x="1249"
                 y="341" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="qinhuangdao"
                 width="38"
                 height="16"
                 x="1253"
                 y="430" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="tangshan"
                 width="32"
                 height="16"
                 x="1229"
                 y="457" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="cangzhou"
                 width="32"
                 height="18"
                 x="1195"
                 y="472" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="dezhou"
                 width="30"
                 height="17"
                 x="1198"
                 y="505" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="jinan"
                 width="34"
                 height="21"
                 x="1174"
                 y="532" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="liaocheng"
                 width="29"
                 height="18"
                 x="1151"
                 y="553" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="jining"
                 width="30"
                 height="16"
                 x="1159"
                 y="581" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="shangqiu"
                 width="32"
                 height="16"
                 x="1112"
                 y="613" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="chongqing"
                 width="43"
                 height="17"
                 x="820"
                 y="790" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="jishou"
                 width="37"
                 height="19"
                 x="908"
                 y="845" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="huangshi"
                 width="31"
                 height="18"
                 x="1084"
                 y="775" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="xinyang"
                 width="27"
                 height="15"
                 x="1067"
                 y="716" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="zhumadian"
                 width="42"
                 height="14"
                 x="1068"
                 y="696" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="luohe"
                 width="35"
                 height="16"
                 x="1067"
                 y="655" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="fuyang"
                 width="28"
                 height="16"
                 x="1115"
                 y="655" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="hefei"
                 width="40"
                 height="18"
                 x="1144"
                 y="718" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="nanchang"
                 width="37"
                 height="21"
                 x="1100"
                 y="833" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="loudi"
                 width="38"
                 height="15"
                 x="972"
                 y="860" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="shaoyang"
                 width="33"
                 height="14"
                 x="973"
                 y="898" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="yongzhou"
                 width="37"
                 height="15"
                 x="974"
                 y="937" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="guilin"
                 width="35"
                 height="16"
                 x="941"
                 y="966" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="liuzhou"
                 width="39"
                 height="17"
                 x="910"
                 y="993" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="wuzhou"
                 width="36"
                 height="13"
                 x="947"
                 y="1017" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="zhaoqing"
                 width="36"
                 height="17"
                 x="975"
                 y="1041" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="yulin_2"
                 width="32"
                 height="18"
                 x="931"
                 y="1053" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="zhanjiang"
                 width="33"
                 height="19"
                 x="907"
                 y="1104" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="nanning"
                 width="35"
                 height="20"
                 x="842"
                 y="1051" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="baise"
                 width="33"
                 height="22"
                 x="830"
                 y="979" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="hechi"
                 width="37"
                 height="17"
                 x="851"
                 y="933" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="yuping"
                 width="32"
                 height="18"
                 x="881"
                 y="885" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="huaihua"
                 width="29"
                 height="16"
                 x="933"
                 y="883" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="haikou"
                 width="38"
                 height="20"
                 x="960"
                 y="1132" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="jiangmen"
                 width="33"
                 height="13"
                 x="996"
                 y="1074" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="dongguan"
                 width="29"
                 height="15"
                 x="1028"
                 y="1059" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="shenzhen"
                 width="29"
                 height="18"
                 x="1074"
                 y="1061" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="xianggang"
                 width="75"
                 height="23"
                 x="1074"
                 y="1089" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1.14629149;stroke-opacity:1"
                 id="zhuhai"
                 width="26.853708"
                 height="15.853708"
                 x="1032.0731"
                 y="1082.0731" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="aomen"
                 width="26"
                 height="16"
                 x="1033"
                 y="1098" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="huizhou"
                 width="33"
                 height="16"
                 x="1108"
                 y="1045" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="shantou"
                 width="31"
                 height="18"
                 x="1160"
                 y="1023" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="xiamen"
                 width="38"
                 height="17"
                 x="1208"
                 y="992" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="quanzhou"
                 width="32"
                 height="17"
                 x="1254"
                 y="977" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="fuzhou_2"
                 width="42"
                 height="23"
                 x="1289"
                 y="940" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="taibei"
                 width="44"
                 height="22"
                 x="1348"
                 y="983" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1.14444435;stroke-opacity:1"
                 id="taidong"
                 width="44.855556"
                 height="19.855556"
                 x="1347.0723"
                 y="1057.0723" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1.16568875;stroke-opacity:1"
                 id="gaoxiong"
                 width="41.834312"
                 height="22.834311"
                 x="1271.0829"
                 y="1055.0829" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="longyan"
                 width="30"
                 height="17"
                 x="1151"
                 y="967" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="meizhou"
                 width="38"
                 height="18"
                 x="1111"
                 y="990" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="guangzhou"
                 width="37"
                 height="18"
                 x="1048"
                 y="1023" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="shaoguan"
                 width="30"
                 height="17"
                 x="1049"
                 y="979" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="chenzhou"
                 width="34"
                 height="17"
                 x="1045"
                 y="953" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="hengyang"
                 width="33"
                 height="17"
                 x="1029"
                 y="921" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="zhuzhou"
                 width="32"
                 height="17"
                 x="1031"
                 y="882" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="yichun"
                 width="31"
                 height="17"
                 x="1070"
                 y="870" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="jian"
                 width="32"
                 height="16"
                 x="1113"
                 y="893" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="ganzhou"
                 width="34"
                 height="16"
                 x="1113"
                 y="937" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="fuzhou_1"
                 width="37"
                 height="18"
                 x="1163"
                 y="886" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="sanming"
                 width="30"
                 height="16"
                 x="1186"
                 y="918" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="shangrao"
                 width="37"
                 height="18"
                 x="1231"
                 y="849" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="nanping"
                 width="34"
                 height="16"
                 x="1252"
                 y="909" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="lishui"
                 width="29"
                 height="18"
                 x="1276"
                 y="853" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="wenzhou"
                 width="47"
                 height="19"
                 x="1347"
                 y="858" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="taizhou"
                 width="39"
                 height="18"
                 x="1361"
                 y="830" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="jinhua"
                 width="31"
                 height="16"
                 x="1312"
                 y="819" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="quzhou"
                 width="35"
                 height="14"
                 x="1239"
                 y="813" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="huangshan"
                 width="30"
                 height="14"
                 x="1214"
                 y="803" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="jiujiang"
                 width="33"
                 height="16"
                 x="1154"
                 y="807" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="jingdezhen"
                 width="42"
                 height="15"
                 x="1157"
                 y="825" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1.16462862;stroke-opacity:1"
                 id="yingtan"
                 width="30.835371"
                 height="15.835371"
                 x="1168.0823"
                 y="840.08234" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="anqing"
                 width="37"
                 height="14"
                 x="1188"
                 y="780" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="nanjing"
                 width="34"
                 height="14"
                 x="1199"
                 y="707" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="bengbu"
                 width="36"
                 height="14"
                 x="1208"
                 y="667" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="suzhou_2"
                 width="33"
                 height="16"
                 x="1193"
                 y="644" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="xuzhou"
                 width="30"
                 height="14"
                 x="1194"
                 y="614" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="linyi"
                 width="32"
                 height="13"
                 x="1211"
                 y="581" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="zibo"
                 width="33"
                 height="16"
                 x="1234"
                 y="521" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="yantai"
                 width="28"
                 height="18"
                 x="1306"
                 y="485" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="weifang"
                 width="34"
                 height="15"
                 x="1319"
                 y="534" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="qingdao"
                 width="37"
                 height="14"
                 x="1332"
                 y="553" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="dalian"
                 width="30"
                 height="18"
                 x="1300"
                 y="439" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="yingkou"
                 width="32"
                 height="15"
                 x="1360"
                 y="392" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="jinzhou"
                 width="27"
                 height="16"
                 x="1314"
                 y="368" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="anshan"
                 width="31"
                 height="14"
                 x="1349"
                 y="359" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="shenyang"
                 width="32"
                 height="14"
                 x="1346"
                 y="333" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="fuxin"
                 width="27"
                 height="13"
                 x="1333"
                 y="318" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="dandong"
                 width="40"
                 height="17"
                 x="1431"
                 y="384" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="tonghua"
                 width="44"
                 height="18"
                 x="1426"
                 y="346" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="yanji"
                 width="30"
                 height="15"
                 x="1478"
                 y="243" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="jilin"
                 width="13"
                 height="37"
                 x="1437"
                 y="256" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="siping"
                 width="27"
                 height="16"
                 x="1404"
                 y="285" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="changchun"
                 width="36"
                 height="20"
                 x="1384"
                 y="242" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="tongliao"
                 width="35"
                 height="16"
                 x="1336"
                 y="280" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="jiagedaqi"
                 width="61"
                 height="20"
                 x="1342"
                 y="40" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="hulunbeier"
                 width="62"
                 height="19"
                 x="1217"
                 y="60" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="qiqihaer"
                 width="49"
                 height="17"
                 x="1284"
                 y="122" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1.21517253;stroke-opacity:1"
                 id="baicheng"
                 width="39.784828"
                 height="20.784828"
                 x="1332.1075"
                 y="183.10759" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="haerbin"
                 width="49"
                 height="21"
                 x="1389"
                 y="161" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="mudanjiang"
                 width="49"
                 height="16"
                 x="1492"
                 y="167" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="jiamusi"
                 width="41"
                 height="18"
                 x="1547"
                 y="104" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="lianyungang"
                 width="40"
                 height="17"
                 x="1287"
                 y="622" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="yancheng"
                 width="37"
                 height="16"
                 x="1327"
                 y="641" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="huaian"
                 width="33"
                 height="16"
                 x="1245"
                 y="635" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="yangzhou"
                 width="35"
                 height="14"
                 x="1245"
                 y="658" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="changzhou"
                 width="34"
                 height="15"
                 x="1277"
                 y="699" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="nantong"
                 width="44"
                 height="19"
                 x="1339"
                 y="695" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="suzhou_1"
                 width="32"
                 height="14"
                 x="1328"
                 y="720" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="shanghai"
                 width="39"
                 height="16"
                 x="1349"
                 y="740" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="wuxi"
                 width="28"
                 height="15"
                 x="1273"
                 y="725" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="wuhu"
                 width="29"
                 height="15"
                 x="1249"
                 y="739" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="huzhou"
                 width="23"
                 height="17"
                 x="1303"
                 y="737" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="hangzhou"
                 width="33"
                 height="16"
                 x="1316"
                 y="773" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="jiaxing"
                 width="25"
                 height="17"
                 x="1326"
                 y="753" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
                 id="ningbo"
                 width="28"
                 height="17"
                 x="1365"
                 y="782" />
-        <rect
+        <rect data-toggle="modal" data-target="#inputModal"
                 style="fill:#f8dada;fill-opacity:1;stroke:#000000;stroke-width:1.06003642;stroke-opacity:1"
                 id="beitun"
                 width="52.939964"
@@ -1513,133 +1525,67 @@
                 y="45.030018" />
     </g>
 </svg>
-<div id="begin" title="准备考试">
+</td>
+</tr>
+</table>
+
+
+
+<div id="beginModal" class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">开始考试</h4>
+      </div>
+      <div class="modal-body">
+        <div id="begin"></div>
+      </div>
+      <div class="modal-footer">
+        <button id="beginExam" type="button" class="btn btn-primary">开始考试</button>
+      </div>
+    </div>
+  </div>
 </div>
-<input id="answer"  type="text" title="请输入城市名称">
-</input>
-<div id="alert" title="剩余时长">
+
+
+<div id="endModal" class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">考试结束</h4>
+      </div>
+      <div class="modal-body">
+        <div id="end"> 时间到，考试结束，请交卷！</div>
+      </div>
+      <div class="modal-footer">
+        <button id="endExam" type="button" class="btn btn-primary">交卷</button>
+      </div>
+    </div>
+  </div>
 </div>
-<div id="alert2" title="考试结束">
-答题结束，请交卷！
+
+<div id="inputModal" class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">修改城市名称</h4>
+      </div>
+      <div class="modal-body">
+        <label for="answer">请输入城市名称</label>
+        <input id="answer"  class="form-control" type="text"> </input>
+      </div>
+      <div class="modal-footer">
+        <button id="endInput" type="button" class="btn btn-primary">确认</button>
+      </div>
+    </div>
+  </div>
 </div>
+
 </body>
 
-<script type="text/javascript" >
+<script src="/js/map.js" type="text/javascript"></script>
 
-        var totalTime = 1*60*1000;
-        var timer;
-        var changeTxt = function () {
-                var rect = document.getElementById(this.id.split("_")[1]);
-                var newtxt = prompt("修改城市名称", this.innerHTML);
-                this.innerHTML = newtxt;
-                fixWidth(rect,this);
-        };
-
-        var fixWidth = function(rect,span){
-                var textLength = span.getComputedTextLength();
-                if (textLength < 30) textLength = 30;
-                rect.width.baseVal.value = textLength;
-        }
-
-        var newTxt = function () {
-                var newtxt = prompt("输入城市名称", "");
-                return newtxt;
-        };
-
-        function input_txt(obj) {
-                var SVG_NS = "http://www.w3.org/2000/svg";
-                var XLINK_NS = "http://www.w3.org/1999/xlink";
-
-                var x = obj.getAttribute('x');
-                var y = obj.getAttribute('y');
-                var height = obj.getAttribute('height');
-
-                var text_id = "text_" + obj.id;
-                var span_id = "span_" + obj.id;
-
-                var text = document.getElementById(text_id);
-
-                if (!text || text == null) {
-                        text = document.createElementNS(SVG_NS, 'text');
-                        text.setAttribute("id", text_id);
-                        text.setAttribute("xml:space", "preserve");
-                        text.setAttribute("x", 0);
-                        text.setAttribute("y", 0);
-                        text.setAttribute("style", "font-size:" + (parseInt(height) - 4) + "px");
-
-                        var newH = parseInt(y) + parseInt(height) - 3;
-                        text.setAttribute("transform", "translate(" + x + "," + newH + ")");
-
-                        var tspan = document.createElementNS(SVG_NS, 'tspan');
-                        tspan.setAttribute("id", span_id);
-                        tspan.onclick = changeTxt;
-                        tspan.innerHTML = newTxt();
-                        text.appendChild(tspan);
-                        document.getElementById("layer1").appendChild(text);
-                        fixWidth(obj,document.getElementById(span_id));
-                } else {
-                        var span = document.getElementById(span_id);
-                        span.onclick()
-                }
-
-        }
-
-        function refresh(){
-                totalTime-=1000;
-                if(totalTime <= 0){
-                window.clearTimeout(timer);
-                $( "#alert1" ).dialog("close");
-                $( "#alert2" ).dialog({
-                                				autoOpen: true,
-                                				modal:true,
-                                                draggable:false,
-                                                resizable:false,
-                                				position:[100, 100],
-                                                width: 200,
-                                                buttons: [
-                                                                		{
-                                                                			text: "交卷",
-                                                                			click: function() {
-                                                                				alert("交卷成功");
-                                                                			}
-                                                                		}
-                                                                	]
-                                				});
-
-                }
-                $("#alert").html(parseInt(totalTime/60/1000)+"分"+parseInt((totalTime-parseInt(totalTime/60/1000)*60*1000)/1000)+"秒");
-        }
-
-        $(function () {
-                $('rect').click(function () {
-                        input_txt(this);
-                });
-
-                $("#begin").html("准备好考试了吗？时长"+(totalTime/60/1000)+"分钟") ;
-                $( "#begin" ).dialog({
-                	autoOpen: true,
-                	width: 400,
-                	modal:true,
-                	draggable:false,
-                	resizable:false,
-                	overlay: {opacity: 0.5, background: "black" ,overflow:'auto'},
-                	buttons: [
-                		{
-                			text: "开始考试",
-                			click: function() {
-                				$( this ).dialog( "close" );
-                				$( "#alert" ).dialog({
-                				autoOpen: true,
-                				position:[100, 100],
-                                                	width: 200
-                				});
-                				timer=window.setInterval(refresh,1000);
-                			}
-                		}
-                	]
-                });
-        })
-
-
-</script>
 </html>
