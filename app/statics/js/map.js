@@ -1,5 +1,7 @@
 var timer;
 var currentRect;
+var SVG_NS = "http://www.w3.org/2000/svg";
+var XLINK_NS = "http://www.w3.org/1999/xlink";
 
 var fixWidth = function (rect, span) {
     var textLength = span.getComputedTextLength();
@@ -8,9 +10,6 @@ var fixWidth = function (rect, span) {
 }
 
 function input_txt(obj) {
-    var SVG_NS = "http://www.w3.org/2000/svg";
-    var XLINK_NS = "http://www.w3.org/1999/xlink";
-
     var x = obj.getAttribute('x');
     var y = obj.getAttribute('y');
     var height = obj.getAttribute('height');
@@ -52,7 +51,9 @@ function refresh() {
         window.clearTimeout(timer);
         $('#endExam').click(function () {
             $('#endModal').modal('hide');
-            alert("交卷成功");
+            var a = document.getElementsByTagNameNS(SVG_NS, 'tspan');
+            alert(a[0].getAttribute("id"));
+            alert(a[0].innerHTML);
         });
         $("#endModal").modal({
             keyboard: false
