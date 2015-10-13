@@ -1,4 +1,6 @@
+'use strict';
+
+
 module.exports = {
-    port: 3000,
-    sessionsecret: 'nodepost'
+    "time": 15/*分钟数*/ * 60 * 1000
 }

@@ -2,6 +2,7 @@
 
 var JSON2 = require("JSON2");
 var parse = require('co-body');
+var setting = require('../../config/setting');
 
 module.exports = {
     "login": function*() {
@@ -10,8 +11,8 @@ module.exports = {
     "dologin": function*() {
         var params = yield parse(this);
         if (params.username && params.userid) {
-            this.redirect('/maptest');
-            //yield this.render('maptest', {"username:":params.username,"userid":params.userid});
+            this.session.user=params.username;
+            this.redirect('/test');
         } else {
             var result = {
                 "error": "请输入姓名和工号"
@@ -19,8 +20,13 @@ module.exports = {
             yield this.render('login', result);
         }
     },
-    "maptest": function*() {
-        yield this.render('maptest', {});
+    "test": function*() {
+        var user = this.session.user;
+        if(user){
+            yield this.render('test', {"user":this.session.user,"time":setting.time});
+        }else{
+            this.redirect('/login');
+        }
     }
 
 }

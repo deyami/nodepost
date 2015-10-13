@@ -1,4 +1,3 @@
-var totalTime = 1 * 60 * 1000;
 var timer;
 var currentRect;
 
@@ -74,6 +73,11 @@ $(function () {
             currentRect = document.getElementById(span_id.split("_")[1]);
         }
     });
+
+    $('#inputModal').on('shown.bs.modal', function (e) {
+        $("#answer").focus();
+    });
+
 
     $('#finishExam').click(function () {
         totalTime = 0;

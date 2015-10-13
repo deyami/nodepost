@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>邮路城市测试</title>
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <script src="/js/jquery.min.js" type="text/javascript"></script>
+    <script src="/js/bootstrap.min.js" type="text/javascript"></script>
+</head>
+
+<body>
+<table class="table table-striped">
+    <tr>
+        <td class="active" >
+            <h4 >
+                剩余时间：
+                <span class="bg-primary" id="alert" title="剩余时长">0分0秒</span>
+            </h4>
+        </td>
+        <td class="warning"><button class="btn btn-primary" type="submit" id="finishExam">交卷</button></td>
+        <td class="info">欢迎你 <span class="label label-success">{{user}}</span></td>
+    </tr>
+    <tr>
+        <td colspan="2">
+            {{ include ("./map.html") }}
+        </td>
+    </tr>
+</table>
+
+{{ include ("./modal.html") }}
+
+</body>
+
+<script type="text/javascript">
+    var totalTime = {{time}};
+</script>
+<script src="/js/map.js" type="text/javascript"></script>
+
+</html>

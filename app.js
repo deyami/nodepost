@@ -9,7 +9,7 @@ var app = require('xtpl/lib/koa')(require('koa')(),{
 });
 
 //var app= require('koa')();
-app.keys = "keys";
+app.keys = ['Map_secret'];
 app.use(session({
     "key":'a_token',
     "maxAge":0
@@ -21,6 +21,6 @@ app.use(serve(__dirname + '/app/statics'));
 
 app.use(_.get('/login',Controller.login));
 app.use(_.post('/dologin',Controller.dologin));
-app.use(_.get('/maptest',Controller.maptest));
+app.use(_.get('/test',Controller.test));
 
 module.exports = app;
