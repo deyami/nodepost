@@ -12,7 +12,7 @@
 
 <body>
 
-<div class="modal-dialog">
+<div class="modal-dialog" style="width: 400px;margin: 130px auto;">
     <form  method="post" action="/dologin">
         <div class="modal-content">
             <div class="modal-header">

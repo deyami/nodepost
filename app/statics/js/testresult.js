@@ -74,8 +74,10 @@ $(function () {
     var rectList = document.getElementsByTagNameNS(SVG_NS, 'rect');
     for(var i=0;i<rectList.length ;i++){
         var rect = rectList[i];
-        rect.setAttribute("data-toggle", "modal");
-        rect.setAttribute("data-target", "#inputModal");
+        rect.setAttribute("data-toggle", "popover");
+        rect.setAttribute("data-container", "body");
+        rect.setAttribute("data-content", "123");
+        rect.setAttribute("title", "正确答案");
     }
 
     $('[data-toggle="popover"]').popover();
