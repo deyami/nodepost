@@ -31,12 +31,17 @@ module.exports = {
     },
     "submittest":function*(){
         var params = yield parse(this);
-        console.log(JSON2.parse(params.examResult));
-        if(user){
-            yield this.render('testresult', {"result":JSON2.parse(params.examResult),"map":map});
-        }else{
-            this.redirect('/login');
+        var resultTOshow = {};
+        var submitResult = JSON2.parse(params.examResult)
+        var score =100;
+        for(var key in map){
+            if(submitResult[key] != map[key]){
+                resultTOshow[key] = {"correct":map[key],"error":submitResult[key]};
+                score--;
+            }
         }
+        console.log(JSON2.stringify(resultTOshow));
+        yield this.render('testresult', {"result":JSON2.stringify(resultTOshow),"score":score});
     }
 
 }

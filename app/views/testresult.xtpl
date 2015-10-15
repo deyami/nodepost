@@ -35,12 +35,11 @@
 </div>
 
 {{ include ("./modal.html") }}
+<script src="/js/testresult.js" type="text/javascript"></script>
 
+<textarea id="resultData">{{result}}<textarea>
 </body>
 
-<script type="text/javascript">
-    var totalTime = {{time}};
-</script>
-<script src="/js/map.js" type="text/javascript"></script>
+
 
 </html>
