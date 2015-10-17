@@ -55,7 +55,7 @@ function refresh() {
             var exam = {};
             for(var i=0;i<spanList.length ;i++){
                 var span = spanList[i];
-                exam[span.getAttribute("id")]=span.innerHTML
+                exam[span.getAttribute("id").split("_")[1]]=span.innerHTML
             }
             $('#examResult').val(JSON.stringify(exam));
             $('#resultForm').submit();
@@ -79,6 +79,7 @@ $(function () {
     }
 
     $('[data-toggle="popover"]').popover();
+
     $('#inputModal').on('show.bs.modal', function (e) {
         var tagName = e.relatedTarget.tagName;
         if (tagName == "rect") {
@@ -91,6 +92,13 @@ $(function () {
 
     $('#inputModal').on('shown.bs.modal', function (e) {
         $("#answer").focus();
+    });
+
+    $('#answer').bind('keypress',function(event){
+        if(event.keyCode == "13")
+        {
+            $('#endInput').click();
+        }
     });
 
 

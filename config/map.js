@@ -128,7 +128,7 @@ module.exports={
     "xiangfan":"襄樊",
     "zhumadian":"驻马店",
     "bengbu":"蚌埠",
-    "yanghzou":"扬州",
+    "yangzhou":"扬州",
     "xinyang":"信阳",
     "hefei":"合肥",
     "nanjing":"南京",
@@ -137,7 +137,7 @@ module.exports={
     "enshi":"恩施",
     "jingzhou":"荆州",
     "wuhan":"武汉",
-    "huanghsi":"黄石",
+    "huangshi":"黄石",
     "jiujiang":"九江",
     "anqing":"安庆",
     "huangshan":"黄山",
@@ -202,5 +202,9 @@ module.exports={
     "huizhou":"惠州",
     "taibei":"台北",
     "gaoxiong":"高雄",
-    "taidong":"台东"
+    "taidong":"台东",
+    "yichang":"宜昌",
+    "changde":"常德",
+    "huaihua":"怀化",
+    "dali":"大理"
 }
