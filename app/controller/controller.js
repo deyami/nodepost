@@ -13,7 +13,7 @@ module.exports = {
         var params = yield parse(this);
         if (params.username && params.userid) {
             this.session.user = params.username;
-            this.redirect('/test');
+            this.redirect('/');
         } else {
             var result = {
                 "error": "请输入姓名和工号"

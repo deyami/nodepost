@@ -21,7 +21,7 @@ app.use(serve(__dirname + '/app/statics'));
 
 app.use(_.get('/login',Controller.login));
 app.use(_.post('/dologin',Controller.dologin));
-app.use(_.get('/test',Controller.test));
+app.use(_.get('/',Controller.test));
 app.use(_.post('/submittest',Controller.submittest));
 
 module.exports = app;
