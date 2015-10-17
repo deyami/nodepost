@@ -47,6 +47,9 @@ module.exports = {
                 resultTOshow[key] = {"correct": map[key]};
             }
         }
+        if(score < 0){
+            score = 0;
+        }
         yield this.render('testresult', {"result": JSON2.stringify(resultTOshow), "score": score});
     }
 

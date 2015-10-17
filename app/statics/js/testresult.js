@@ -58,6 +58,7 @@ $(function () {
         }else{
             var tspan = document.createElementNS(SVG_NS, 'tspan');
             tspan.setAttribute("id", span_id);
+            text.setAttribute("style", "fill:green");
             tspan.innerHTML = value["correct"];
             text.appendChild(tspan);
         }
