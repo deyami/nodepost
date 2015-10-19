@@ -14,11 +14,12 @@
     <tr>
         <td class="active" >
             <h4 >
-                剩余时间：
-                <span class="bg-primary" id="alert" title="剩余时长">0分0秒</span>
+                考试结果：你的得分是 {{{score}}} 分
             </h4>
         </td>
-        <td class="warning"><button class="btn btn-primary" type="submit" id="finishExam">交卷</button></td>
+        <td class="warning">
+        <a class="btn btn-primary" href="/" id="reExam">再试一次</a>
+        </td>
         <td class="info">欢迎你 <span class="label label-success">{{user}}</span></td>
     </tr>
     <tr>

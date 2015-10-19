@@ -2,6 +2,7 @@ var timer;
 var currentRect;
 var SVG_NS = "http://www.w3.org/2000/svg";
 var XLINK_NS = "http://www.w3.org/1999/xlink";
+var counter = 0;
 
 var fixWidth = function (rect, span) {
     var textLength = span.getComputedTextLength();
@@ -47,6 +48,7 @@ function input_txt(obj) {
 
 function refresh() {
     totalTime -= 1000;
+    counter +=1000;
     if (totalTime <= 0) {
         window.clearTimeout(timer);
         $('#endExam').click(function () {
@@ -64,6 +66,8 @@ function refresh() {
         $("#endModal").modal({
             keyboard: false
         });
+        $("#end").html("时间到，本次用时："+parseInt(counter / 60 / 1000) + "分" + parseInt((counter - parseInt(counter / 60 / 1000) * 60 * 1000) / 1000) + "秒");
+
     } else {
         $("#alert").html(parseInt(totalTime / 60 / 1000) + "分" + parseInt((totalTime - parseInt(totalTime / 60 / 1000) * 60 * 1000) / 1000) + "秒");
     }

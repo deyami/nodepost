@@ -30,27 +30,33 @@ module.exports = {
         }
     },
     "submittest": function*() {
-        var params = yield parse(this);
-        var resultTOshow = {};
-        var submitResult = JSON2.parse(params.examResult)
-        var score = 100;
-        for (var key in map) {
+        var user = this.session.user;
+        if (user) {
+            var params = yield parse(this);
+            var resultTOshow = {};
+            var submitResult = JSON2.parse(params.examResult)
+            var score = 100;
+            for (var key in map) {
 
-            if (submitResult[key] != map[key]) {
-                var error = submitResult[key];
-                if (!error) {
-                    error = "???"
+                if (submitResult[key] != map[key]) {
+                    var error = submitResult[key];
+                    if (!error) {
+                        error = "???"
+                    }
+                    resultTOshow[key] = {"correct": map[key], "error": error};
+                    score--;
+                } else {
+                    resultTOshow[key] = {"correct": map[key]};
                 }
-                resultTOshow[key] = {"correct": map[key], "error": error};
-                score--;
-            } else {
-                resultTOshow[key] = {"correct": map[key]};
             }
+            if(score < 0){
+                score = 0;
+            }
+            yield this.render('testresult', {"result": JSON2.stringify(resultTOshow), "score": score});
+        } else {
+            this.redirect('/login');
         }
-        if(score < 0){
-            score = 0;
-        }
-        yield this.render('testresult', {"result": JSON2.stringify(resultTOshow), "score": score});
+
     }
 
 }

@@ -13,7 +13,7 @@
 <table class="table table-striped">
     <tr>
         <td class="active" >
-            <h4 >
+            <h4 id="title">
                 剩余时间：
                 <span class="bg-primary" id="alert" title="剩余时长">0分0秒</span>
             </h4>

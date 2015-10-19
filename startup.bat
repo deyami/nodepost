@@ -1,0 +1,1 @@
+call %cd%\node --harmony bin/app.js
